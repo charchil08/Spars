@@ -37,7 +37,7 @@ const Login = () => {
                     <Button className="mr-3" variant="primary" type="submit" onClick={()=>Nevigate("/Upload")} >
                         Login
                     </Button>
-                    <Button onClick={()=>Register("/Register")} className="mr-3" variant="warning" 
+                    <Button onClick={()=>Register("/Register")} className="mr-3" variant="warning" disabled 
                     // onClick={()=>Nevigate("/ForgatePassword")}
                     >
                         Forgot Password
