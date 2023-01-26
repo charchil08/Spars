@@ -6,6 +6,12 @@ import {useNavigate} from "react-router-dom"
 const Header = () => {
 
         const home = useNavigate();
+<<<<<<< HEAD
+=======
+        // const logout = ()=>{
+             
+        // }
+>>>>>>> 7701bd6031929ec53f27fca180b7cce7b240bef0
     return (
         <Fragment>
             <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
@@ -21,10 +27,19 @@ const Header = () => {
                             <Nav.Link href="/contactUs">Contact Us</Nav.Link>
                         </Nav>
                         <Nav>
+<<<<<<< HEAD
                             <Nav.Link href="#deets" disabled>Charchil Chetankumar Kajaliya</Nav.Link>
                             <Button variant="danger" size="sm" className="mx-3 my-1">Log out</Button>
                         </Nav>
                     </Navbar.Collapse>
+=======
+                            {/* <Nav.Link href="#deets" disabled>Charchil Chetankumar Kajaliya</Nav.Link> */}
+                            <Button variant="danger" size="sm" className="mx-3 my-1"
+                             href="/logout"
+                            >Log out</Button>
+                        </Nav>
+                    </Navbar.Collapse> 
+>>>>>>> 7701bd6031929ec53f27fca180b7cce7b240bef0
                 </Container>
             </Navbar>
         </Fragment>

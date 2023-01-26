@@ -3,7 +3,11 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Col from "react-bootstrap/Col";
+<<<<<<< HEAD
 import Row from "react-bootstrap/Row";
+=======
+import Row from "react-bootstrap/Row"; 
+>>>>>>> 7701bd6031929ec53f27fca180b7cce7b240bef0
 
 export const ContactUs = () => {
   return (

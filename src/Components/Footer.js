@@ -9,7 +9,11 @@ const Footer = () => {
     return (
         <div>
             <footer className="bg-light text-center text-white" style={{
+<<<<<<< HEAD
                    marginTop:"25px"
+=======
+                   marginTop:"50px"
+>>>>>>> 7701bd6031929ec53f27fca180b7cce7b240bef0
             }}>
                 {/* <!-- Grid container --> */}
                 <div className="contaiWner p-4 pb-0">
